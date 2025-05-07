@@ -1,0 +1,7 @@
+[distutils.commands]
+test = fipy.tests.test:test
+unittest = fipy.tests.test:test
+
+[fipy.viewers]
+matplotlib = fipy.viewers.matplotlibViewer:MatplotlibViewer
+mayavi = fipy.viewers.mayaviViewer:MayaviClient

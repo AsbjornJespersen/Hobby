@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: FiPy
+Version: 3.4.5
+Summary: A finite volume PDE solver in Python
+Home-page: http://www.ctcms.nist.gov/fipy/
+Download-URL: https://github.com/usnistgov/fipy/archive/3.4.5.zip
+Author: Jonathan Guyer, Daniel Wheeler, & Jim Warren
+Author-email: fipy@list.nist.gov
+License: NIST Public Domain
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: X11 Applications
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Public Domain
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE.rst
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: future
+
+
+FiPy is an object oriented, partial differential equation (PDE) solver,
+written in Python, based on a standard finite volume (FV) approach.  This
+combination provides a tool that is extensible, powerful and freely
+available.  A significant advantage to Python is the existing suite of
+tools for array calculations, sparse matrices and data rendering.
+
+The FiPy framework includes terms for transient diffusion, convection and
+standard sources, enabling the solution of arbitrary combinations of
+coupled elliptic, hyperbolic and parabolic PDEs.  Currently implemented
+models include phase field treatments of polycrystalline, dendritic, and
+electrochemical phase transformations, as well as drug eluting stents,
+reactive wetting, photovoltaics and a level set treatment of the
+electrodeposition process.
